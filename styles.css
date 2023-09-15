@@ -1,6 +1,5 @@
 body{
     background-color: rgb(221, 221, 221);
-    margin: 0px;
 }
 
 nav{
@@ -10,29 +9,22 @@ nav{
     font-weight: normal;
 }
     
-
 .nav-item{
     color: rgb(0, 0, 0);
-    margin: 0px;
-   
 }
 
 .container-fluid{
     background-color: rgb(221, 221, 221);
-    margin: 0px;
 }
  
-
 .d-flex{
     background-color: rgb(221, 221, 221);
-    margin: 0px;
 }
 
 .form-control{
     background-color: rgb(221, 221, 221);
     border-color: black;
-    margin: 0px;
-
 }
+
 
 
