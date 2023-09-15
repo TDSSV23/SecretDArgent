@@ -4,11 +4,27 @@ body{
 
 nav{
     color:rgb(0, 0, 0);
-    background-color: rgb(220, 220, 220);
+    background-color: rgb(221, 221, 221);
     font-size: 15px; 
     font-weight: normal;
 }
-
+    
 .nav-item{
-    color: black;
+    color: rgb(0, 0, 0);
 }
+
+.container-fluid{
+    background-color: rgb(221, 221, 221);
+}
+ 
+.d-flex{
+    background-color: rgb(221, 221, 221);
+}
+
+.form-control{
+    background-color: rgb(221, 221, 221);
+    border-color: black;
+}
+
+
+
