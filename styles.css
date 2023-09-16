@@ -1,5 +1,6 @@
 body{
     background-color: rgb(221, 221, 221);
+    font-family: Lucida Console;
 }
 
 nav{
@@ -47,3 +48,11 @@ button:hover{
     background-color: rgb(158, 152, 152);
     border-color: black;
 }
+
+h4{
+    justify-content: center;
+    text-align: center;
+    font-family: Lucida Handwriting;
+}
+
+
