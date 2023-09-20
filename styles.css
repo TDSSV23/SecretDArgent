@@ -41,15 +41,9 @@ nav{
     border-color: black;
     border-radius: 6px;
     background-color:  rgb(199, 198, 198);
-    
-
 }
 
-button:hover{
-    background-color: rgb(158, 152, 152);
-    border-color: black;
-    border: solid 1px;
-}
+
 
 h4{
     justify-content: center;
