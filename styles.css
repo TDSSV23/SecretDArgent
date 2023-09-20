@@ -9,6 +9,7 @@ nav{
     font-size: 15px; 
     font-weight: normal;
     margin-top: -4px;
+    font-family: Lucida Handwriting;
 }
     
 .nav-item{
@@ -47,6 +48,7 @@ nav{
 button:hover{
     background-color: rgb(158, 152, 152);
     border-color: black;
+    border: solid 1px;
 }
 
 h4{
