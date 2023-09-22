@@ -73,8 +73,20 @@ h3{
 
 .catalogo{
     margin:auto ;
-    /* width: 200px ;
-    height: 280px ; */
+    
+}
+
+.h41{
+    font-family: Lucida Handwriting;
+    
+}
+.h42{
+    font-family: Lucida Handwriting;
+}
+
+/* defini um tamanho menor para as divs de texto */
+.sobre div div{
+    width: 90%;
 }
    
 
