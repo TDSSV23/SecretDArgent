@@ -1,6 +1,7 @@
 body{
     background-color: rgb(221, 221, 221);
     font-family: Lucida Console;
+    width: 100%;
 }
 
 nav{
@@ -55,6 +56,7 @@ h3{
 .card-group{
     width: 900px;
     height: 280px;
+  
  
    
 }
@@ -99,7 +101,7 @@ footer {
     align-items: center;
     font-weight: 300;
     padding: 20px;
-    background: black;
+    background:  rgb(199, 198, 198);
   }
   
   footer a {
@@ -118,6 +120,11 @@ footer {
   }
   
   .cortx{
-    color: #fff;
+    color: rgb(0, 0, 0);
   }
- 
+
+
+
+
+
+  
