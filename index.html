@@ -18,9 +18,9 @@
 
   <!-- NAV BAR -->
 
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg fixed-top" id="nav">
         <div class="container-fluid">
-          <a class="navbar-brand"><img src="img/logopequenatransparente2.png" alt="" height="60px"></a>
+          <a href="index.html" class="navbar-brand"><img src="img/logopequenatransparente2.png" alt="" height="60px"></a>
           <a class="navbar-brand"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -28,37 +28,37 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page">Home</a>
+              <a class="nav-link active" href="index.html" aria-current="page">Home</a>
               </li>
               &nbsp;&nbsp;
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page">Lançamentos</a>
+              <a class="nav-link active" href="#carrossel1"aria-current="page">Lançamentos</a>
               </li>
               &nbsp;&nbsp;
              <li class="nav-item dropdown">
-                <a class="nav-link active" aria-current="page" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+               <a class="nav-link active" href="#carrossel2" aria-current="page" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Produtos
                 </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item">Colar</a></li>
-                  <li><a class="dropdown-item">Pulseiras</a></li>
-                  <li><a class="dropdown-item">Brincos </a></li>
-                  <li><a class="dropdown-item">Aneis</a></li>
-                  <li><a class="dropdown-item">Alianças</a></li>
-                </ul>
+                <!-- <ul class="dropdown-menu">
+                  <li><a href="#carrossel2" class="dropdown-item">Colar</a></li>
+                  <li><a href="#carrossel2"class="dropdown-item">Pulseiras</a></li>
+                  <li><a href="#carrossel2"class="dropdown-item">Brincos </a></li>
+                  <li><a href="#carrossel2" class="dropdown-item">Aneis</a></li>
+                  <li><a href="#carrossel2" class="dropdown-item">Alianças</a></li>
+                </ul> -->
               </li>
               &nbsp;&nbsp;
                <li class="nav-item">
-                <a class="nav-link active" aria-current="page">Catálogo Virtual</a>
+                <a class="nav-link active" href="#catalogovirtual"aria-current="page">Catálogo Virtual</a>
               </li>
               &nbsp;&nbsp;
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page">Sobre Nós</a>
+              <a class="nav-link active" href="#sobre" aria-current="page">Sobre Nós</a>
               </li>
               &nbsp;&nbsp;
               
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page">Contato</a>
+               <a class="nav-link active" href="#contato" aria-current="page">Contato</a>
               </li>
               &nbsp;&nbsp;
             </ul>
@@ -72,7 +72,7 @@
 
       <!-- CAROSSEL -->
 
-      <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+      <div id="carouselExampleSlidesOnly" class="carousel slide sei-la" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img src="img/carrossel/1.png" class="d-block w-100" alt="..." width="400px" height="300px">
@@ -92,7 +92,7 @@
 
       <!-- Lançamentos -->
 
-     <h3>Lançamentos</h3>
+     <h3 id="carrossel1">Lançamentos</h3>
 
      <br><br>
  <div class="d-flex">
@@ -188,7 +188,7 @@
 
  <!-- Produtos -->
 
- <h3>Produtos</h3>
+ <h3 id="carrossel2">Produtos</h3>
 
  <br><br>
 <div class="d-flex">
@@ -285,7 +285,7 @@
     <!-- CATÁLOGO -->
     <br><br>
 
-    <h3>Catálogo Virtual</h3>
+    <h3 id="catalogovirtual">Catálogo Virtual</h3>
     <br><br>
 <div class="w-100 text-center">
 
@@ -304,7 +304,7 @@
     <!-- Kauan Sobre-->
 
 
-    <h3>Sobre</h3><br>
+    <h3 id="sobre">Sobre</h3><br>
     <div class="d-flex sobre">
       
         <!-- deixa a div com metade da tela -->
@@ -327,9 +327,9 @@
 <br><br><br><br>
 
 
-<footer>
+<footer >
 
-  <p class="cortx">
+  <p class="cortx" id="contato">
     (17)99999-9999
    </p>
 
