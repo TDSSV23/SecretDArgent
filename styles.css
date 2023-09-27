@@ -44,7 +44,7 @@ nav{
     border-width: 1px;
     border-color: black;
     border-radius: 6px;
-    background-color:  rgb(198, 198, 198);
+    
 }
 
 
@@ -53,6 +53,7 @@ h3{
     justify-content: center;
     text-align: center;
     font-family: Lucida Handwriting;
+    color: rgb(0, 0, 0);
 }
 
 .card-group{
