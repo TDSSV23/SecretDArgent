@@ -349,6 +349,9 @@
             <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
           </div>
 
+          <label for="inputPassword5" class="form-label form1">Password</label>
+          <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
+
           <div class="mb-3 form-check">
             <input type="checkbox" class="form-check-input" id="exampleCheck1">
             <label class="form-check-label" for="exampleCheck1">Lembre-me</label>
@@ -357,7 +360,7 @@
 
       </div>
       <div class="modal-footer janela3">
-       <a href="#exampleModal2"><button type="button" class="btn btn-primary btnm">Continuar</button></a> 
+       <a href="#exampleModal2" data-bs-toggle="modal" data-bs-target="#exampleModal2"><button type="button" class="btn btn-secondary btnm">Continuar</button></a> 
       </div>
     </div>
   </div>
@@ -369,14 +372,24 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header janela">
-        <h1 class="modal-title fs-5" id="exampleModalLabel">Contato</h1>
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Email</h1>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body janela2">
+
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Assunto</label>
+          <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Assunto">
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label"></label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Digite aqui"></textarea>
+        </div>
        
       </div>
       <div class="modal-footer janela3">
-       <a href="#exampleModal2"><button type="button" class="btn btn-primary btnm">Continuar</button></a> 
+        <button type="button" class="btn btn-secondary  btnm" data-bs-dismiss="modal">Enviar</button>
+        
       </div>
     </div>
   </div>
@@ -387,7 +400,7 @@
 <footer >
 
   <p class="cortx" id="contato">
-    (17)99999-9999
+    (17)99459-3641
    </p>
 
   <p class="cortx">
